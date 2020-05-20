@@ -74,7 +74,7 @@ async function main() {
     canvas.addEventListener('mousemove', e => {
         if (isBending) {
             const f = 110 * Math.pow(16, e.offsetX/canvas.width);
-            fp.setValueAtTime(f, audioCtx.currentTime);
+            pitchbend(f);
         }
     });
 
