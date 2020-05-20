@@ -1,2 +1,5 @@
-# karplus_strong_web_audio
-Karplus-Strong in Web Audio with Audio Worklet
+# Karplus-Strong in Web Audio
+Implements [Karplus-Strong string synthesis](https://en.wikipedia.org/wiki/Karplus%E2%80%93Strong_string_synthesis)
+in Web Audio using Audio Worklet.
+
+Warning: bad quality code!
